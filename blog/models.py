@@ -8,5 +8,6 @@ class Post(models.Model):
 
 # that only prints non-sensitive information
     def __str__(self):
-        return self.title
+        return self.title 
+        
     
